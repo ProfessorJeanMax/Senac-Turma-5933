@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Inicio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="">
+    
+    <div id="onchange">
+        <input  type="text" onchange="document.getElementById('onchange').style.backgroundColor = 'red'">
+    </div>
+
+    <p id="onclick">onclick</p>
+    <button type="button" onclick="document.getElementById('onclick').style.textAlign = 'center'">onclick</button>
+
+    <p id="onmouseover" onmouseover="document.getElementById('onmouseover').style.textAlign = 'center'">onmouseover</p>
+
+    <p id="onmouseout" onmouseout="document.getElementById('onmouseout').style.textAlign = 'center'">onmouseout</p>
+
+    <div id="onkeydown">
+        Digite algo: <input type="text" onkeydown="detecta(event)">
+    </div>
+        
+    <p id="teste">onload</p>
+    
+</body>
+</html>

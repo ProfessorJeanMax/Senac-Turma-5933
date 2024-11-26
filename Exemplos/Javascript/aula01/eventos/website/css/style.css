@@ -1,0 +1,20 @@
+/* Estilos CSS */
+
+#onchange {
+    background-color: aqua;
+}
+#onclick {
+    background-color: red;
+}
+#onmouseover {
+    background-color: purple;
+}
+#onmouseout{
+    background-color: orange;
+}
+#onkeydown{
+    background-color: brown;
+}
+#teste{
+    background-color: blue;
+}
